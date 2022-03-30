@@ -1,0 +1,158 @@
+/* Author: wwww.developers.today 
+    Email:  contact@developers.today
+   Simple registraton form for free. 
+1.0 version */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #57995f;
+    font-family: 'Trirong';
+
+}
+
+.main {
+    text-align: center;
+    background-color: white;
+    max-width: 60%;
+    height: auto;
+    margin: auto;
+    border-radius: 14px;
+    
+}
+
+
+/* Registration form (window) control */
+
+.reg-form {
+    margin-top: 10%;
+}
+
+/* Headline control */
+
+#headline {
+    padding-top: 3%;
+    
+ 
+}
+
+#first-line {
+    width: 40%;
+    margin-bottom: 2%;
+}
+
+#second-line {
+    width: 40%;
+    
+}
+
+
+/* input fields control */
+
+input {
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 1px;
+    margin-bottom: 8px;
+    border: 2px black solid;
+    font-size: 16px;
+}
+
+
+
+/* label control */
+
+label {
+    width: 130px;
+   
+    font-size: 22px;
+    height: 40px;
+   
+}
+
+/* facebook authorization */
+
+#reg-btn {
+    border-radius: 50px;
+    margin: auto;
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    margin-bottom: 12px;
+    
+}
+
+#reg-btn:hover {
+    background-color: #20447d;
+    color: #f2f3f5;
+}
+
+
+/* Sign up button control */
+
+#sign-up {
+    background-color: #379449;
+    color: white;
+    border: none;
+    
+}
+
+#sign-up:hover {
+    background-color: #256632;
+    color: #f2f3f5;
+}
+
+/* Terms and Condition's checkbox */
+
+
+.tacbox {
+    display:block;
+    
+    
+    
+    
+    font-size: 12px;
+    
+  }
+
+  #checkbox {
+    height: 2em;
+    width: 2em;
+    vertical-align: middle;
+    font-size: 12px;
+  }
+
+  .tacbox a {
+      font-size: 14px;
+      text-decoration: none;
+     
+     
+  }
+
+
+  /* Terms and conditions page */
+
+  h2, p {
+      text-align: left;
+      line-height: 1;
+  }
+
+  .terms-desc {
+      padding: 2%;
+  }
+
+  #back-btn {
+      width: auto;
+      border: none;
+      background-color: #f0e2e1;
+  }
+
+  #back-btn:hover {
+      background-color: #20447d;
+      color: white;
+      border: none;
+  }
